@@ -1,9 +1,9 @@
-export type ValidControls = "all" | 
-  "accessibleAccordion" | "adaptiveCardDesignerHost" | "adaptiveCardHost" | 
-  "animatedDialog" | "Carousel" | "ChartControl" | 
-  "ComboBoxListItemPicker" | "Dashboard" | "DateTimePicker" | 
-  "DragDropFiles" | "DynamicForm" | "EnhancedThemeProvider" | 
-  "FieldCollectionData" | "FieldPicker" | "FilePicker" | 
+export type ValidControls = "all" |
+  "accessibleAccordion" | "adaptiveCardDesignerHost" | "adaptiveCardHost" |
+  "animatedDialog" | "Carousel" | "ChartControl" |
+  "ComboBoxListItemPicker" | "Dashboard" | "DateTimePicker" |
+  "DragDropFiles" | "DynamicForm" | "EnhancedThemeProvider" |
+  "FieldCollectionData" | "FieldPicker" | "FilePicker" |
   "FileTypeIcon" | "FolderExplorer" | "FolderPicker" |
   "GridLayout" | "IconPicker" | "IFrameDialog" |
   "IFramePanel" | "ListPicker" | "ListItemPicker" |
@@ -13,8 +13,8 @@ export type ValidControls = "all" |
   "Placeholder" | "Progress" | "RichText" |
   "SecurityTrimmedControl" | "SiteBreadcrumb" | "SitePicker" |
   "TaxonomyPicker" | "TaxonomyTree" | "Teams" |
-  "TestControl" | "Toolbar" | "TreeView" |
-  "UploadFiles" | "VariantThemeProvider" | "WebPartTitle";
+  "TestUserPickerControl" | "Toolbar" | "TreeView" |
+  "UploadFiles" | "VariantThemeProvider" | "WebPartTitle" | "TestCalendarControl" | "TestImagePickerControl";
 
 export type ControlVisibility = {
   [K in ValidControls]: boolean;

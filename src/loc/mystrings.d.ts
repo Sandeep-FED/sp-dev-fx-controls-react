@@ -424,9 +424,29 @@ declare interface IControlStrings {
   TermSertNaviagtionErrorMessage: string;
 
   HoverReactionBarSearchEmojiPlaceholder: string;
+  // calendar control
+    CalendarControlDayOfWeekSunday: string;
+    CalendarControlDayOfWeekMonday: string;
+    CalendarControlDayOfWeekTuesday: string;
+    CalendarControlDayOfWeekWednesday: string;
+    CalendarControlDayOfWeekThursday: string;
+    CalendarControlDayOfWeekFriday: string;
+    CalendarControlDayOfWeekSaturday: string;
+
+    CalendarControlEventDetailsLabel: string;
+
+    CalendarControlViewDayLabel: string;
+    CalendarControlViewWeekLabel: string;
+    CalendarControlViewMonthLabel: string;
+
+    CalendarControlTodayLabel: string;
+
 }
 
+
+
 declare interface IDateTimeStrings {
+
   L_RelativeDateTime_AFewSecondsFuture: string;
   L_RelativeDateTime_AFewSeconds: string;
   L_RelativeDateTime_AboutAMinuteFuture: string;
