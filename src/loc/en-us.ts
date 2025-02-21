@@ -225,6 +225,7 @@ define([], () => {
     AddFileButtonLabel: "Add file",
     AddImageButtonLabel: "Add image",
     AriaCellValue: "{0} column, {1}",
+
     FilePickerCancelButtonLabel: "Cancel",
     CantValidateValidationMessage: "We couldn't verify this link. Please check the link and try again.",
     ChangeFileLinkLabel: "Change file",
@@ -445,5 +446,20 @@ define([], () => {
     ImagePickerRetryButtonLabel: "Retry",
     ImagePickerDeleteLabel: "Delete",
 
+
+    CalendarControlDayOfWeekSunday: "Sunday",
+    CalendarControlDayOfWeekMonday: "Monday",
+    CalendarControlDayOfWeekTuesday: "Tuesday",
+    CalendarControlDayOfWeekWednesday: "Wednesday",
+    CalendarControlDayOfWeekThursday: "Thursday",
+    CalendarControlDayOfWeekFriday: "Friday",
+    CalendarControlDayOfWeekSaturday: "Saturday",
+
+    CalendarControlEventDetailsLabel: "Open",
+ CalendarControlViewDayLabel: "Day",
+    CalendarControlViewWeekLabel: "Week",
+    CalendarControlViewMonthLabel: "Month",
+
+     CalendarControlTodayLabel: "Today",
   };
 });
